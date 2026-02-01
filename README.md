@@ -2,8 +2,12 @@
 <br />
 <br />
 <br />
-![visitors](https://komarev.com/ghpvc/?username=Jeong-Yun-Kim)  
-![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Jeong-Yun-Kim)  
-[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=love2851030)](https://solved.ac/love2851030)  
+![visitors](https://komarev.com/ghpvc/?username=Jeong-Yun-Kim)
+<br />
+<br />
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Jeong-Yun-Kim&bg_color=ffffff&color=000000&line=000000&point=000000&area=true)  
+![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Jeong-Yun-Kim)
 ![Top Langs](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Jeong-Yun-Kim)  
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Jeong-Yun-Kim)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=love2851030)](https://solved.ac/love2851030)  
+
+
