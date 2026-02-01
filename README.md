@@ -35,5 +35,4 @@
   <img src="https://img.shields.io/badge/C%2B%2B-17-blue" />
   <img src="https://img.shields.io/badge/Python-3.x-blue" />
   <img src="https://img.shields.io/badge/YOLOv5-vision-green" />
-  <img src="https://img.shields.io/badge/Jetson-Orin%20Nano-black" />
 </p>
