@@ -6,14 +6,6 @@
 
 ---
 
-## 👋 About Me
-- 🤖 **ROS2 기반 로봇 시스템 개발**
-- 🦾 **6-DOF 로봇팔(Mirobot) 제어 및 자동화**
-- 👁️ **YOLO 기반 비전 인식 & 스마트 팩토리**
-- 🧠 C++ · Python · Ubuntu 22.04 · Jetson
-
----
-
 ## 📈 Activity
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Jeong-Yun-Kim&bg_color=ffffff&color=000000&line=000000&point=000000&area=true)
 
