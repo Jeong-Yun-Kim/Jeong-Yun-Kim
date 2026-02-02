@@ -1,9 +1,5 @@
 ![header](https://capsule-render.vercel.app/api?type=soft&color=000000&height=280&section=header&text=Jeong-Yun-Kim%20GitHub&fontSize=48&fontColor=FFFFFF)
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Jeong-Yun-Kim&label=Profile%20views" />
-</p>
-
 ---
 
 ## 📈 Activity
