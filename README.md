@@ -3,9 +3,17 @@
 ---
 
 ## Contact
-
-
----
+<p align="center">
+  <a href="mailto:jeongyun061030@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Gmail-black?logo=gmail" />
+  </a>
+  <a href="https://github.com/Jeong-Yun-Kim">
+    <img src="https://img.shields.io/badge/GitHub-Profile-black?logo=github" />
+  </a>
+  <a href="https://solved.ac/love2851030">
+    <img src="https://img.shields.io/badge/Solved.ac-Profile-black" />
+  </a>
+</p>
 
 ---
 
