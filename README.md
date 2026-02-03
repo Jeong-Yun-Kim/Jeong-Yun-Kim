@@ -2,12 +2,19 @@
 
 ---
 
-## 📈 Activity
+## Contact
+
+
+---
+
+---
+
+## Activity
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Jeong-Yun-Kim&bg_color=ffffff&color=000000&line=000000&point=000000&area=true)
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Jeong-Yun-Kim" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Jeong-Yun-Kim" />
@@ -15,7 +22,7 @@
 
 ---
 
-## 🧩 Problem Solving
+## Problem Solving
 <p align="center">
   <a href="https://solved.ac/love2851030">
     <img src="http://mazassumnida.wtf/api/generate_badge?boj=love2851030" />
@@ -24,7 +31,7 @@
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 <p align="center">
   <img src="https://img.shields.io/badge/ROS2-Humble-blue" />
   <img src="https://img.shields.io/badge/Ubuntu-22.04-orange" />
