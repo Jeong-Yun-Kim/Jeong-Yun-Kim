@@ -30,7 +30,7 @@
 
 ---
 
-## Problem Solving
+## Baekjoon
 <p align="center">
   <a href="https://solved.ac/love2851030">
     <img src="http://mazassumnida.wtf/api/generate_badge?boj=love2851030" />
