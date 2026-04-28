@@ -30,15 +30,6 @@
 
 ---
 
-## Baekjoon
-<p align="center">
-  <a href="https://solved.ac/love2851030">
-    <img src="http://mazassumnida.wtf/api/generate_badge?boj=love2851030" />
-  </a>
-</p>
-
----
-
 ## Tech Stack
 <p align="center">
   <img src="https://img.shields.io/badge/ROS2-Humble-blue" />
