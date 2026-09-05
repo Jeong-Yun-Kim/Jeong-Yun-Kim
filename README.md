@@ -1,37 +1,50 @@
-![header](https://capsule-render.vercel.app/api?type=soft&color=000000&height=280&section=header&text=Jeong-Yun-Kim%20GitHub&fontSize=48&fontColor=FFFFFF)
-
----
-
-## Contact
 <p align="center">
-  <a href="mailto:jeongyun061030@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Gmail-black?logo=gmail" />
-  </a>
-  <a href="https://github.com/Jeong-Yun-Kim">
-    <img src="https://img.shields.io/badge/GitHub-Profile-black?logo=github" />
-  </a>
+  <img src="./assets/profile-header.svg" width="100%" alt="Jeong-Yun Kim — Robotics &amp; Backend Developer" />
 </p>
 
----
+### 로봇을 움직이고, 데이터를 연결하는 개발자 김정윤입니다.
 
-## Activity
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Jeong-Yun-Kim&bg_color=ffffff&color=000000&line=000000&point=000000&area=true)
+ROS 2 기반 로봇 제어와 컴퓨터 비전, 서버 개발을 중심으로 프로젝트를 만들고 있습니다.  
+센서에서 얻은 정보가 로봇의 동작으로 이어지고, 그 결과가 서버와 화면에 연결되는 과정을 구현합니다.
 
----
+<br />
 
-## GitHub Stats
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Jeong-Yun-Kim" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Jeong-Yun-Kim" />
-</p>
+## Focus
 
----
+- **Robotics** · 로봇팔 제어, 작업 시퀀스, ROS 2 기반 장비 연동
+- **Vision** · 카메라와 객체 인식을 활용한 로봇 작업 자동화
+- **Backend** · API, 실시간 상태 모니터링, 로봇과 서비스 연결
+
+<br />
+
+## Selected Projects
+
+| Project | What I build |
+| :--- | :--- |
+| **[Mirobot ROS 2](https://github.com/Jeong-Yun-Kim/Mirobot_ros2)** | ROS 2와 YOLO를 활용한 로봇팔 제어 및 비전 기반 픽앤플레이스 |
+| **[Smart Factory Server](https://github.com/Jeong-Yun-Kim/mirobot_order_server)** | FastAPI·WebSocket으로 주문부터 로봇 작업, 배송까지 연결하는 공정 서버 |
+| **[UWB Communication](https://github.com/Jeong-Yun-Kim/UWB_Test)** | ESP32·DWM1000으로 노트북과 Jetson 간 텍스트·이미지를 주고받는 통신 실험 |
+
+<br />
 
 ## Tech Stack
+
+**Languages**  
+`Python` `C++`
+
+**Robotics & Vision**  
+`ROS 2` `OpenCV` `YOLO`
+
+**Backend & Tools**  
+`FastAPI` `WebSocket` `Linux` `Git` `PlatformIO`
+
+<br />
+
+---
+
 <p align="center">
-  <img src="https://img.shields.io/badge/ROS2-Humble-blue" />
-  <img src="https://img.shields.io/badge/Ubuntu-22.04-orange" />
-  <img src="https://img.shields.io/badge/C%2B%2B-17-blue" />
-  <img src="https://img.shields.io/badge/Python-3.x-blue" />
-  <img src="https://img.shields.io/badge/YOLOv5-vision-green" />
+  <sub><b>LET’S CONNECT</b></sub><br />
+  <a href="mailto:jeongyun061030@gmail.com">jeongyun061030@gmail.com</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Jeong-Yun-Kim?tab=repositories">Explore repositories</a>
 </p>
