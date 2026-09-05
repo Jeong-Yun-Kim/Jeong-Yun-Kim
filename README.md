@@ -2,7 +2,7 @@
   <img src="./assets/profile-header.svg" width="100%" alt="Jeong-Yun Kim — Robotics &amp; Backend Developer" />
 </p>
 
-### 로봇을 움직이고, 데이터를 연결하는 개발자 김정윤입니다.
+### 로봇을 움직이고, 데이터를 연결하는 개발자
 
 ROS 2 기반 로봇 제어와 컴퓨터 비전, 서버 개발을 중심으로 프로젝트를 만들고 있습니다.  
 센서에서 얻은 정보가 로봇의 동작으로 이어지고, 그 결과가 서버와 화면에 연결되는 과정을 구현합니다.
