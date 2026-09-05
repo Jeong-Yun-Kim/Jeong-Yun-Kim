@@ -40,6 +40,29 @@ ROS 2 기반 로봇 제어와 컴퓨터 비전, 서버 개발을 중심으로 �
 
 <br />
 
+## GitHub Activity
+
+<p align="center">
+  <a href="https://github.com/Jeong-Yun-Kim?tab=overview">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jeong-Yun-Kim&amp;theme=graywhite&amp;bg_color=151515&amp;title_color=f5f5f5&amp;text_color=b5b5b5&amp;border_color=353535&amp;icon_color=d4d4d4&amp;chart_color=d4d4d4&amp;animation=none&amp;name=Contribution%20Activity" width="800" alt="최근 1년간 GitHub 기여 활동 그래프" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Jeong-Yun-Kim?tab=overview">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Jeong-Yun-Kim&amp;theme=graywhite&amp;bg_color=151515&amp;title_color=f5f5f5&amp;text_color=b5b5b5&amp;border_color=353535&amp;icon_color=d4d4d4&amp;chart_color=d4d4d4&amp;animation=none" width="390" alt="GitHub 활동 요약: 커밋, PR, 이슈와 기여 저장소" />
+  </a>
+  <a href="https://github.com/Jeong-Yun-Kim?tab=overview">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Jeong-Yun-Kim&amp;theme=graywhite&amp;bg_color=151515&amp;title_color=f5f5f5&amp;text_color=b5b5b5&amp;border_color=353535&amp;icon_color=d4d4d4&amp;chart_color=d4d4d4&amp;animation=none&amp;utcOffset=9" width="390" alt="한국 시간 기준 시간대별 커밋 분포" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>GitHub에 공개된 활동 기준 · 커밋 시간대: KST (UTC+9)</sub>
+</p>
+
+<br />
+
 ---
 
 <p align="center">
