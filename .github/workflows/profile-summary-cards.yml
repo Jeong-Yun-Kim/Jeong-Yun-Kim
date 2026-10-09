@@ -1,0 +1,87 @@
+name: Update GitHub profile summary cards
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Daily at 02:17 KST (17:17 UTC).
+    - cron: "17 17 * * *"
+  push:
+    paths:
+      - ".github/workflows/profile-summary-cards.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-summary-cards
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    name: Generate profile cards
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate SVG cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          # A fine-grained PAT can be set as SUMMARY_GITHUB_TOKEN if the
+          # automatic repository token cannot read some contribution data.
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || github.token }}
+        with:
+          USERNAME: Jeong-Yun-Kim
+          BRANCH_NAME: main
+          UTC_OFFSET: "9"
+          NAME: "Contribution Activity"
+          THEME: dark
+          ANIMATION: none
+          AUTO_PUSH: "false"
+
+      - name: Apply existing monochrome styling
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          folder = Path("profile-summary-card-output/dark")
+          filenames = (
+              "0-profile-details.svg",
+              "3-stats.svg",
+              "4-productive-time.svg",
+          )
+          for filename in filenames:
+              path = folder / filename
+              if not path.is_file():
+                  raise SystemExit(f"Required summary card was not generated: {path}")
+              svg = path.read_text(encoding="utf-8")
+              if "<svg" not in svg or "</svg>" not in svg:
+                  raise SystemExit(f"Invalid summary card SVG: {path}")
+
+              # Match the README's previous Vercel overrides, preserving
+              # the black background and neutral gray title/icons/chart.
+              svg = svg.replace("#9f9f9f", "#b5b5b5")
+              svg = svg.replace("#79ff97", "#d4d4d4")
+              svg = svg.replace("#000000", "#353535")
+              svg = svg.replace("fill: #fff;", "fill: #f5f5f5;")
+              svg = re.sub(r"#fff(?![a-fA-F0-9])", "#d4d4d4", svg)
+              path.write_text(svg, encoding="utf-8")
+              print(f"Styled {path}")
+          PY
+
+      - name: Commit updated cards
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add             profile-summary-card-output/dark/0-profile-details.svg             profile-summary-card-output/dark/3-stats.svg             profile-summary-card-output/dark/4-productive-time.svg
+          if git diff --cached --quiet; then
+            echo "No card changes to commit."
+          else
+            git commit -m "chore: refresh GitHub activity cards"
+            git push
+          fi
